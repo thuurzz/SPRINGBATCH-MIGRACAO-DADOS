@@ -19,7 +19,7 @@ import com.example.migracaodados.dominio.Pessoa;
 @Configuration
 public class BancoPessoaWriterConfig {
 	@Bean //(name="bancoPessoaTest")
-	public JdbcBatchItemWriter<Pessoa> bancoPessoaWriterConfig(
+	public JdbcBatchItemWriter<Pessoa> bancoPessoaWriter(
 			@Qualifier("appDataSource") DataSource dataSource){
 				return new JdbcBatchItemWriterBuilder<Pessoa>()
 						.dataSource(dataSource)
