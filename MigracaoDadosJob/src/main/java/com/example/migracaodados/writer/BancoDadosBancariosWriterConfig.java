@@ -13,7 +13,7 @@ import com.example.migracaodados.dominio.DadosBancarios;
 @Configuration
 public class BancoDadosBancariosWriterConfig {
 	@Bean
-	public JdbcBatchItemWriter<DadosBancarios> bancoPessoaWriterConfig(
+	public JdbcBatchItemWriter<DadosBancarios> bancoDadosBancariosWriter(
 			@Qualifier("appDataSource") DataSource dataSource){
 				return new JdbcBatchItemWriterBuilder<DadosBancarios>()
 						.dataSource(dataSource)

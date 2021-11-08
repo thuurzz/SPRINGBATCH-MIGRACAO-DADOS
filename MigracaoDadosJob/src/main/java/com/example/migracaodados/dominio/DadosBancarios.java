@@ -3,7 +3,7 @@ package com.example.migracaodados.dominio;
 public class DadosBancarios {
 	private int id;
 	private int pessoaId;
-	private int idagencia;
+	private int agencia;
 	private int conta;
 	private int banco;
 	
@@ -19,11 +19,11 @@ public class DadosBancarios {
 	public void setPessoaId(int pessoaId) {
 		this.pessoaId = pessoaId;
 	}
-	public int getIdagencia() {
-		return idagencia;
+	public int getAgencia() {
+		return agencia;
 	}
-	public void setIdagencia(int idagencia) {
-		this.idagencia = idagencia;
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
 	}
 	public int getConta() {
 		return conta;

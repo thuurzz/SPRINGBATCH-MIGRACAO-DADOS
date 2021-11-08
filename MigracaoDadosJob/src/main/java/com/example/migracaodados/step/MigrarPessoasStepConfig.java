@@ -30,6 +30,4 @@ public class MigrarPessoasStepConfig {
 				.build();
 	}
 
-	
-	
 }
